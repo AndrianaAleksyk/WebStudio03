@@ -1,0 +1,259 @@
+/*Base styles*/
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --primery-color: #434455;
+    --background-color: #FFFFFF;
+    
+}
+    
+.body {
+    font-family: var(--primery-font);
+    color: var(--primery-color);
+    background-color:var(--background-color);
+}
+.section {
+
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/*STUDIO STUDIO STUDIO STUDIO STUDIO*/
+
+/*Logo*/
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0,03em;
+    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);
+}
+.logo-dark {
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+.logo-light {
+    color: var(--CLOUD, #F4F4FD);
+}
+
+/*Header styles*/
+
+.header {
+
+}
+.navigation {
+
+}
+.navigation-list {
+
+}
+.navigation-list-item {
+    
+}
+.navigation-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #404bbf;
+}
+.address {
+    font-style: normal;
+} 
+.address-list {
+
+}
+.address-list-item {
+   
+}
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0,02em;
+    color: var(--SLATE, #434455);
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+/*Hero styles*/
+
+.hero {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0,02em;
+    color: var(--WHITE, #FFF);
+    text-align: center;
+}
+.hero-button {
+    background-color: var(--IRIS, #4D5AE5);
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0,04em;
+    cursor: pointer;
+    color: var(--WHITE, #FFF);
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--OCEAN, #404BBF);
+}
+
+/*Benefits styles*/
+
+.benefits {
+
+}
+.benefits-title {
+
+}
+.benefits-list {
+
+}
+.benefits-list-item {
+
+}
+.benefits-item-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0,02em;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+.benefits-item-desc {
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0,02em;
+    color: var(--SLATE, #434455);
+}
+
+/*Offers styles*/
+
+.offers {
+
+}
+.offers-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0,02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+.offers-list {
+
+}
+.offers-list-item {
+
+}
+.offers-list-picture {
+
+}
+
+/*Team styles*/
+
+.team {
+    background-color: var(--CLOUD, #F4F4FD);
+}
+.team-list {
+
+}
+.team-list-item {
+    background-color: #FFFFFF;
+
+}
+.team-item-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2; 
+    letter-spacing: 0,02em; 
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+.team-item-desc {
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0,02em; 
+    color: var(--SLATE, #434455);
+
+}
+.team-list-picture {
+
+}
+
+/*Footer styles*/
+
+.footer {
+    background-color: var(--NAVY-BLUE, #2E2F42);
+}
+.footer-desc {
+    line-height: 1.5;
+    letter-spacing: 0,02em;
+    color: var(--CLOUD, #F4F4FD);
+}
+
+/*PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO*/
+
+/*Portfolio section*/
+
+.portfolio{
+
+}
+.portfolio-title {
+
+}
+.portfolio-list {
+    
+}
+.portfolio-list-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0,04em;
+    color: var(--IRIS, #4D5AE5);
+    background-color: var(--CLOUD, #F4F4FD);
+    cursor: pointer;
+}
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+
+}
+.portfolio-list-images {
+
+}
+.portfolio-images-items {
+
+}
+.portfolio-img-item {
+
+}
+.portfoilio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0,02;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+.portfolio-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0,02em;
+    color: var(--SLATE, #434455);
+}
